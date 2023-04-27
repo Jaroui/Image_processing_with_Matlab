@@ -75,8 +75,11 @@ Manipulation :
 
 1-	Ouverture et lecture d’une image :
 A l’aide du Matlab , lire l’image « Flowers.jpg» puis l’afficher
+
 	Code Matlab 
+
 ![image](https://user-images.githubusercontent.com/86842189/234879190-3a4dc1c6-0881-494d-98fe-5849983a2fa2.png)
+
 
 ![image](https://user-images.githubusercontent.com/86842189/234879237-1ba32822-9d43-4b60-9e6c-ed72f8190ed5.png)
 
@@ -85,12 +88,14 @@ Figure 5 : Affichage d'image originale
 
 2-	Inverse d’une image :
 Faire pivoter une image à l'aide de la fonction imrotate. Lorsqu’on  fait pivoter une image, On spécifie l'image à faire pivoter et l'angle de rotation, en degrés. Si on spécifie un angle de rotation positif, l'image pivote dans le sens inverse des aiguilles d'une montre ; Sinon, l'image pivote dans le sens des aiguilles d'une montre. Par défaut, l'image de sortie est suffisamment grande pour inclure l'intégralité de l'image d'origine.
+
 	Code Matlab
+
 ![image](https://user-images.githubusercontent.com/86842189/234879354-e1230eb1-fdf5-4b78-b4f4-031d7dd0e080.png)
 
  
 ![image](https://user-images.githubusercontent.com/86842189/234879404-462acc03-ceb2-409b-9950-3975259bfd3f.png)
- 
+
 Figure 6 : Rotation d'image
 
 
@@ -98,13 +103,15 @@ Figure 6 : Rotation d'image
 
 3-	Conversion et affichage d’image en niveaux de gris :
 Pour convertir une image RGB en une image en niveaux de gris, vous pouvez utiliser la fonction rgb2gray de l'Image processing Toolbox.
+
 	Code Matlab
+
 ![image](https://user-images.githubusercontent.com/86842189/234879485-19bccae4-6b95-427b-b297-216b5cd23299.png)
 
  
 
-![image](https://user-images.githubusercontent.com/86842189/234879524-e39f6276-7aec-4626-abaf-803b92a11f77.png)
- 
+![image](https://user-images.githubusercontent.com/86842189/234879524-e39f6276-7aec-4626-abaf-803b92a11f77.png) 
+
 Figure 7: Conversion d'image en niveaux de gris
 
 
@@ -113,7 +120,9 @@ Figure 7: Conversion d'image en niveaux de gris
 
 4-	Conversion et affichage d’image en blanc et noir :
 im2bw (I, niveau) convertit l'image en niveaux de gris I en image binaire BW, en remplaçant tous les pixels de l'image d'entrée avec une luminance supérieure au niveau par la valeur 1 (blanc) et en remplaçant tous les autres pixels par la valeur 0 (noir).
+
 	Code Matlab
+
 ![image](https://user-images.githubusercontent.com/86842189/234879577-2b15982c-d673-4caf-989b-d964c2997e57.png)
 
  
@@ -146,6 +155,7 @@ Les interfaces graphiques sont appelées GUI (Graphical User Interface) sous MAT
 II.	Création d’une interface GUI sous MATLAB :
 
 Le placement des objets est réalisé par sélection dans une boite à outils. Leur mise en place et leur dimensionnement se font à l'aide de la souris.
+
 ![image](https://user-images.githubusercontent.com/86842189/234879770-4224273c-ce14-49c1-aaf1-59c5761e7667.png)
 
  
@@ -169,6 +179,7 @@ III.	Intégrations des programmes au dessus dans une seule interface GUI :
 -	Une fois l’interface est terminée , le sauvegarde du fichier « GUIDE» donne un autre fichier .m  Interface1.m qui est le programme principal qui fait appelle des sous programmes sous formes de fonctions :
  
 Présentation des fonctions utilisées dans chaque objet :
+
 ![image](https://user-images.githubusercontent.com/86842189/234880059-b5eb89dc-f3bf-4699-ad04-c9376abec017.png)
 ![image](https://user-images.githubusercontent.com/86842189/234880084-603acd16-b170-4fa8-a5b7-22b5713c0b92.png)
 
@@ -194,21 +205,26 @@ Imshow : affiche l'image dans une figure
 
 + Inverse :
 
-•	90° :  
+•	90° : 
+
 ![image](https://user-images.githubusercontent.com/86842189/234880380-26bf525a-6e0d-4ab5-9e76-815daec245fa.png)
 
 •	180° :
- ![image](https://user-images.githubusercontent.com/86842189/234880419-42909936-a228-423e-b5bd-9c4c1a8aa2be.png)
+
+![image](https://user-images.githubusercontent.com/86842189/234880419-42909936-a228-423e-b5bd-9c4c1a8aa2be.png)
 
 •	360° :
- ![image](https://user-images.githubusercontent.com/86842189/234880461-3eba4a18-669c-4d22-b9a4-de769c8fdc36.png)
+
+![image](https://user-images.githubusercontent.com/86842189/234880461-3eba4a18-669c-4d22-b9a4-de769c8fdc36.png)
 
 +RGB vers Gris :
- ![image](https://user-images.githubusercontent.com/86842189/234880499-d89530f1-ac90-4e60-b5fe-58865c05bc69.png)
+
+![image](https://user-images.githubusercontent.com/86842189/234880499-d89530f1-ac90-4e60-b5fe-58865c05bc69.png)
 
 
 +RGB vers Binaire
-  ![image](https://user-images.githubusercontent.com/86842189/234880565-22717135-96d6-412e-8071-e7bbec1895ca.png)
+
+![image](https://user-images.githubusercontent.com/86842189/234880565-22717135-96d6-412e-8071-e7bbec1895ca.png)
  
 Les fonctions utilisées au dessus sont expliquées dans le chapitre de manipulation (imrotate, rgb2gray,im2bw).
 Getappdata() : On utilise cette fonction pour récupérer les données stockées à l'aide de la fonction setappdata. Ces deux fonctions offrent un moyen pratique de partager des données entre des rappels ou entre des interfaces utilisateur distinctes.
